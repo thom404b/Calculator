@@ -80,5 +80,24 @@ namespace Calculator
 
 
         }
+
+        private void Off_Click_1(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Del_Click(object sender, RoutedEventArgs e)
+        {
+            tb.Text = "";
+        }
+
+        private void R_Click(object sender, RoutedEventArgs e)
+        {
+            if (tb.Text.Length > 0)
+            {
+                tb.Text = tb.Text.Substring(0, tb.Text.Length - 1);
+            }
+        }
     }
+
 }
