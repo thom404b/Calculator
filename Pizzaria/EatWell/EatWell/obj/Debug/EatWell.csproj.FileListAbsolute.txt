@@ -1,0 +1,15 @@
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.csprojAssemblyReference.cache
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\App.g.cs
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell_MarkupCompile.cache
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\bin\Debug\EatWell.exe.config
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\bin\Debug\EatWell.exe
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\bin\Debug\EatWell.pdb
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\MainWindow.g.cs
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell_MarkupCompile.lref
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\MainWindow.baml
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.g.resources
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.Properties.Resources.resources
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.csproj.GenerateResource.cache
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.csproj.CoreCompileInputs.cache
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.exe
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.pdb

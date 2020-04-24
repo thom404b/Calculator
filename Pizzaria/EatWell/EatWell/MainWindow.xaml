@@ -6,7 +6,29 @@
         xmlns:local="clr-namespace:EatWell"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid ShowGridLines="True" Background="#deddc8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="103*"></RowDefinition>
+            <RowDefinition Height="106*"/>
+            <RowDefinition Height="208*"></RowDefinition>
+            <RowDefinition Height="2"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="SKP Pizzeria" Grid.Column="1" HorizontalAlignment="Left" Margin="68,0,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Yu Gothic Medium"/>
+        <Button Content="View" HorizontalAlignment="Left" Margin="189,86.027,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1"/>
+        <Button Content="View" Grid.Column="1" HorizontalAlignment="Left" Margin="189,86.027,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1"/>
+        <Button Content="View" Grid.Column="2" HorizontalAlignment="Left" Margin="189,86.027,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.957,-1.248" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="-5,65,0,0" Source="C:\Users\SmartWay\Documents\repos\Pizzaria\Pics" Grid.RowSpan="2"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="0,65,0,0" VerticalAlignment="Top" Width="100" Grid.RowSpan="2"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="259,65,0,0" VerticalAlignment="Top" Width="100" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Label Content="Velkommen til SKP Pizzeria" HorizontalAlignment="Center" Margin="235,24,243,0" Grid.Row="2" VerticalAlignment="Top" FontSize="24" Grid.ColumnSpan="3" FontFamily="Yu Gothic Medium" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,0,0,30" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Grid.RowSpan="2" Height="114"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,0,0,30" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Grid.RowSpan="2" Grid.Column="1" Height="114"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,0,0,30" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Grid.RowSpan="2" Grid.Column="2" Height="114"/>
+
     </Grid>
 </Window>
