@@ -29,5 +29,11 @@ namespace EatWell
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            PreSet1 win2 = new PreSet1();
+            win2.Show();
+        }
     }
 }

@@ -13,3 +13,5 @@ C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.csp
 C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.csproj.CoreCompileInputs.cache
 C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.exe
 C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.pdb
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\PreSet1.g.cs
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\PreSet1.baml
