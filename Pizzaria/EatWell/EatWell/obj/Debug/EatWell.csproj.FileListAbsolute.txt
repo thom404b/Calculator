@@ -15,3 +15,6 @@ C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.exe
 C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\EatWell.pdb
 C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\PreSet1.g.cs
 C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\PreSet1.baml
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\PreSets\PreSet1.g.cs
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\PreSets\PreSet2.g.cs
+C:\Users\SmartWay\Documents\repos\Pizzaria\EatWell\EatWell\obj\Debug\PreSets\PreSet3.g.cs

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EatWell.PreSets;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,8 +33,20 @@ namespace EatWell
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            PreSet1 win2 = new PreSet1();
+            FamPreSet win2 = new FamPreSet();
             win2.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            PreSet2 win3 = new PreSet2();
+            win3.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            PreSet3 win4 = new PreSet3();
+            win4.Show();
         }
     }
 }

@@ -67,14 +67,28 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="PreSet1.xaml">
+    <Page Include="PreSets\FamPreSet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreSets\PreSet2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreSets\PreSet3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PreSet1.xaml.cs">
-      <DependentUpon>PreSet1.xaml</DependentUpon>
+    <Compile Include="PreSets\FamPreSet.xaml.cs">
+      <DependentUpon>FamPreSet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreSets\PreSet2.xaml.cs">
+      <DependentUpon>PreSet2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreSets\PreSet3.xaml.cs">
+      <DependentUpon>PreSet3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

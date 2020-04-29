@@ -19,9 +19,9 @@
         </Grid.RowDefinitions>
         <Label Content="SKP Pizzeria" Grid.Column="1" HorizontalAlignment="Left" Margin="66,0,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Yu Gothic Medium"/>
         <Button Content="View" Grid.Column="0" HorizontalAlignment="Left" Margin="155,0,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="Button_Click"/>
-        <Button Content="View" Grid.Column="2" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" RenderTransformOrigin="-0.469,-1.624"/>
-        <Button Content="View" Grid.Column="1" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.957,-1.248" Grid.Row="1"/>
-        <Image Source="\" Grid.Column="0" Height="100" VerticalAlignment="Top" Width="100" Margin="0,50,164,0"  Grid.RowSpan="1"/>
+        <Button Content="View" Grid.Column="2" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" RenderTransformOrigin="-0.469,-1.624" Click="Button_Click_2"/>
+        <Button Content="View" Grid.Column="1" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.957,-1.248" Grid.Row="1" Click="Button_Click_1"/>
+        <Image Grid.Column="0" Height="100" VerticalAlignment="Top" Width="100" Margin="0,50,164,0"  Grid.RowSpan="1"/>
         <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="5,50,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
         <Image Grid.Column="3" HorizontalAlignment="Left" Height="100" Margin="0,50,0,0" VerticalAlignment="Top" Width="100"/>
         <Label Content="Velkommen til SKP Pizzeria" HorizontalAlignment="Center" Margin="234,23,222,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24" Grid.ColumnSpan="4" FontFamily="Yu Gothic Medium" FontWeight="Bold" Width="336"/>
