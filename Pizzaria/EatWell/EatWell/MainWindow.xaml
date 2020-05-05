@@ -6,6 +6,16 @@
         xmlns:local="clr-namespace:EatWell"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="myButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Width" Value="80" />
+            <Setter Property="Foreground" Value="Green" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+    </Window.Resources>
+    
     <Grid Background="#deddc8">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="264*"></ColumnDefinition>
@@ -18,16 +28,18 @@
 
         </Grid.RowDefinitions>
         <Label Content="SKP Pizzeria" Grid.Column="1" HorizontalAlignment="Left" Margin="66,0,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Yu Gothic Medium"/>
-        <Button Content="View" Grid.Column="0" HorizontalAlignment="Left" Margin="155,0,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="Button_Click"/>
-        <Button Content="View" Grid.Column="2" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" RenderTransformOrigin="-0.469,-1.624" Click="Button_Click_2"/>
-        <Button Content="View" Grid.Column="1" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.957,-1.248" Grid.Row="1" Click="Button_Click_1"/>
-        <Image Grid.Column="0" Height="100" VerticalAlignment="Top" Width="100" Margin="0,50,164,0"  Grid.RowSpan="1"/>
-        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="5,50,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
-        <Image Grid.Column="3" HorizontalAlignment="Left" Height="100" Margin="0,50,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="View" Grid.Column="0" HorizontalAlignment="Left" Margin="155,0,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="Button_Click"  Style="{StaticResource myButtonStyle}" />
+        <Button Content="View" Grid.Column="2" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" RenderTransformOrigin="-0.469,-1.624" Click="Button_Click_2" Style="{StaticResource myButtonStyle}"/>
+        <Button Content="View" Grid.Column="1" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.957,-1.248" Grid.Row="1" Click="Button_Click_1" Style="{StaticResource myButtonStyle}"/>
+        <Image Source="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/The_Pizza_Company_Logo.svg/800px-The_Pizza_Company_Logo.svg.png" Height="122" VerticalAlignment="Top" Margin="0,76,0,0"  Grid.RowSpan="1" Grid.Row="1" Grid.Column="1"/>
+        <Image Source="http://www.yourmomhatesthis.com/images/2016/12/Pizza-PNG-Picture-1.png" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="5,50,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
+        <Image Source="https://purepng.com/public/uploads/large/purepng.com-pizzafood-pizza-941524625790xzrxh.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="0,50,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="http://pngimg.com/uploads/pizza/pizza_PNG7102.png" HorizontalAlignment="Left" Height="100" Margin="0,50,0,0" VerticalAlignment="Top" Width="100"/>
         <Label Content="Velkommen til SKP Pizzeria" HorizontalAlignment="Center" Margin="234,23,222,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24" Grid.ColumnSpan="4" FontFamily="Yu Gothic Medium" FontWeight="Bold" Width="336"/>
         <TextBlock HorizontalAlignment="Left" Margin="119,0,0,10" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Height="114" Width="135"/>
         <TextBlock HorizontalAlignment="Left" Margin="119,0,0,10" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Grid.Column="1" Height="114" Width="135"/>
         <TextBlock HorizontalAlignment="Left" Margin="119,0,0,10" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Grid.Column="2" Height="114" Width="135"/>
+        <Button Content="Design-Selv" HorizontalAlignment="Left" Margin="179,191,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Grid.Column="2" Style="{StaticResource myButtonStyle}"/>
 
     </Grid>
 </Window>
