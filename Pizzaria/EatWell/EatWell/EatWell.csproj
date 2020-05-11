@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Windows\Customer_Info.xaml.cs">
+      <DependentUpon>Customer_Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Self_Design_Pizza.xaml.cs">
+      <DependentUpon>Self_Design_Pizza.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -76,6 +82,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PreSets\PreSet3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Customer_Info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Self_Design_Pizza.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

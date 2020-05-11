@@ -1,4 +1,5 @@
 ﻿using EatWell.PreSets;
+using EatWell.Windows;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,6 +48,17 @@ namespace EatWell
         {
             PreSet3 win4 = new PreSet3();
             win4.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Self_Design_Pizza win5 = new Self_Design_Pizza();
+            win5.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -15,7 +15,7 @@
             <Setter Property="Margin" Value="10" />
         </Style>
     </Window.Resources>
-    
+
     <Grid Background="#deddc8">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="264*"></ColumnDefinition>
@@ -39,7 +39,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="119,0,0,10" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Height="114" Width="135"/>
         <TextBlock HorizontalAlignment="Left" Margin="119,0,0,10" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Grid.Column="1" Height="114" Width="135"/>
         <TextBlock HorizontalAlignment="Left" Margin="119,0,0,10" TextWrapping="Wrap" Text="Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence" VerticalAlignment="Bottom" Grid.Column="2" Height="114" Width="135"/>
-        <Button Content="Design-Selv" HorizontalAlignment="Left" Margin="179,191,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Grid.Column="2" Style="{StaticResource myButtonStyle}"/>
+        <Button Content="Design-Selv" HorizontalAlignment="Left" Margin="179,191,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Grid.Column="2" Style="{StaticResource myButtonStyle}" Click="Button_Click_3"/>
+        <Button Content="Dine Oplysninger" Grid.Column="0" Grid.Row="1" Width="Auto"  Style="{StaticResource myButtonStyle}" Margin="10,191,147,10" Click="Button_Click_4"/>
 
     </Grid>
 </Window>
