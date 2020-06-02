@@ -1,0 +1,86 @@
+﻿<Window x:Class="PizzaApp.Windows.PreSet1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PizzaApp.Windows"
+        mc:Ignorable="d"
+        Title="PreSet1" Height="450" Width="400">
+
+    <Window.Resources>
+        <Style x:Key="MyInfoButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Width"  Value="70" />
+            <Setter Property="Foreground" Value="Green" />
+            <Setter Property="Margin" Value="20,20,20,20" />
+        </Style>
+
+        <Style x:Key="MyComboStyle" TargetType="ComboBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="350"/>
+        </Style>
+
+        <Style x:Key="MyTextStyles" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="MyButttonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="Green" />
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="Height" Value="20" />
+            <Setter Property="Width" Value="50" />
+        </Style>
+    </Window.Resources>
+
+    
+    <Grid Background="#9ba694" Margin="0,0,0,-1">
+
+        <StackPanel Margin="0,0,0,25">
+            <Label Style="{StaticResource MyTextStyles}">Size</Label>
+            <ComboBox Style="{StaticResource MyComboStyle}">
+                <ComboBoxItem Content="Børne + 15kr" IsSelected="True"/>
+                <ComboBoxItem Content="Alm + 30kr"/>
+                <ComboBoxItem Content="Fam + 70kr"/>
+            </ComboBox>
+
+            <Label Style="{StaticResource MyTextStyles}">Dej</Label>
+            <ComboBox Style="{StaticResource MyComboStyle}">
+                <ComboBoxItem Content="Alm + 0kr" IsSelected="True"/> 
+                <ComboBoxItem Content="Fuldkorn + 5kr"/>
+            </ComboBox>
+
+            <Label Style="{StaticResource MyTextStyles}">Sovs</Label>
+            <ComboBox Style="{StaticResource MyComboStyle}">
+                <ComboBoxItem Content="Alm Pizza Sovs + 0kr"/>
+                <ComboBoxItem Content="Husets Special Sovs + 5kr" IsSelected="True"/>
+            </ComboBox>
+
+            <Label Style="{StaticResource MyTextStyles}">Tilbehør</Label>
+            <ComboBox Style="{StaticResource MyComboStyle}">0
+                <ComboBoxItem Content="Kylling + 10k" IsSelected="True"/>
+                <ComboBoxItem Content="Oksekød + 8kr"/>
+                <ComboBoxItem Content="Rejer + 15kr"/>
+                <ComboBoxItem Content="Salat + 5kr"/>
+            </ComboBox>
+
+            <Label Style="{StaticResource MyTextStyles}">Ost</Label>
+            <ComboBox Style="{StaticResource MyComboStyle}">
+                <ComboBoxItem Content="Mozeralla + 5kr" IsSelected="True"/>
+                <ComboBoxItem Content="Cheddar + 10kr"/>
+            </ComboBox>
+
+            <Label Style="{StaticResource MyTextStyles}">Krydderi</Label>
+            <ComboBox Style="{StaticResource MyComboStyle}">
+                <ComboBoxItem Content="Hvidøg + 5kr"/>
+                <ComboBoxItem Content="Oregano + 5kr" IsSelected="True"/>
+                <ComboBoxItem Content="Paprika + 5kr"/>
+                <ComboBoxItem Content="Hvidløgs Dressing +5 kr"/>
+            </ComboBox>
+
+            <TextBlock HorizontalAlignment="Center" Margin="40">Amount</TextBlock>
+        </StackPanel>
+        <Button Content="Bestil" Width="75" Height="20" Margin="293,374,24,26" Click="Button_Click"/>
+        <Button Content="Luk" Width="75" Height="20" Margin="20,374,297,26"/>
+
+    </Grid>
+</Window>
