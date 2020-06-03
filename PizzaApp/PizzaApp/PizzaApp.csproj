@@ -55,11 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Classes\Size.cs" />
     <Compile Include="Windows\CusInfo.xaml.cs">
       <DependentUpon>CusInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\DesginSet.xaml.cs">
       <DependentUpon>DesginSet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\NewDesignSet.xaml.cs">
+      <DependentUpon>NewDesignSet.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\PreSet1.xaml.cs">
       <DependentUpon>PreSet1.xaml</DependentUpon>
@@ -69,6 +73,9 @@
     </Compile>
     <Compile Include="Windows\PreSet3.xaml.cs">
       <DependentUpon>PreSet3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Tester.xaml.cs">
+      <DependentUpon>Tester.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -90,6 +97,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\NewDesignSet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\PreSet1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -99,6 +110,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\PreSet3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Tester.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -128,6 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -57,7 +57,7 @@
             <Label Style="{StaticResource MyTextStyles}">Tilbehør</Label>
             <ComboBox Style="{StaticResource MyComboStyle}" Name="CbTilbehør">
                 <CheckBox>
-                    <ComboBoxItem Content="Kylling + 10k"/>
+                    <ComboBoxItem Content="Kylling + 10kr"/>
                 </CheckBox>
                 <CheckBox>
                     <ComboBoxItem Content="Oksekød + 8kr"/>

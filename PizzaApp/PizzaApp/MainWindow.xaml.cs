@@ -25,6 +25,7 @@ namespace PizzaApp
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -47,7 +48,7 @@ namespace PizzaApp
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            DesginSet win5 = new DesginSet();
+            NewDesignSet win5 = new NewDesignSet();
             win5.Show();
         }
 
