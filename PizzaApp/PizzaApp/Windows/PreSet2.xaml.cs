@@ -26,8 +26,18 @@ namespace PizzaApp.Windows
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
-            MessageBox.Show("Du har bestilt en Pizza nummer 2 til 58,- kr");
+            if (MessageBox.Show("Vil du bestille en eller flere sodavand med?",
+                 "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            {
+                SodaSet win7 = new SodaSet();
+                win7.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Du har Bestilt en Pizza Nummer 2 til 52,- kr ");
+                this.Close();
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

@@ -52,3 +52,5 @@ C:\Users\thom404b\source\SKP-Projekter-github\PizzaApp\PizzaApp\obj\Debug\PizzaA
 C:\Users\thom404b\source\SKP-Projekter-github\PizzaApp\PizzaApp\obj\Debug\PizzaApp.csproj.CoreCompileInputs.cache
 C:\Users\thom404b\source\SKP-Projekter-github\PizzaApp\PizzaApp\obj\Debug\Windows\NewDesignSet.g.cs
 C:\Users\thom404b\source\SKP-Projekter-github\PizzaApp\PizzaApp\obj\Debug\Windows\NewDesignSet.baml
+C:\Users\thom404b\source\SKP-Projekter-github\PizzaApp\PizzaApp\obj\Debug\Windows\SodaSet.g.cs
+C:\Users\thom404b\source\SKP-Projekter-github\PizzaApp\PizzaApp\obj\Debug\Windows\SodaSet.baml

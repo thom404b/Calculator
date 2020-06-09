@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -74,6 +75,9 @@
     <Compile Include="Windows\PreSet3.xaml.cs">
       <DependentUpon>PreSet3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\SodaSet.xaml.cs">
+      <DependentUpon>SodaSet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Tester.xaml.cs">
       <DependentUpon>Tester.xaml</DependentUpon>
     </Compile>
@@ -110,6 +114,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\PreSet3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\SodaSet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

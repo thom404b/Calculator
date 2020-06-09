@@ -35,7 +35,7 @@
     
     <Grid Background="#9ba694" Margin="0,0,0,-1">
 
-        <StackPanel Margin="0,0,0,25">
+        <StackPanel Margin="0,0,0,10">
             <Label Style="{StaticResource MyTextStyles}">Size</Label>
             <ComboBox Style="{StaticResource MyComboStyle}">
                 <ComboBoxItem Content="Børne + 15kr" IsSelected="True"/>
